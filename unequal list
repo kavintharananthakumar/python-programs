@@ -1,0 +1,7 @@
+n=eval(input('enter a list'))
+l=eval(input('enter a list'))
+for i in n and for j in l:
+    if i==j:
+        pass
+    else:
+        print('error unequal lists')
