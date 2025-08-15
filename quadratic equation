@@ -1,0 +1,22 @@
+a=int(input("enter a"))
+b=int(input("enter b"))
+c=int(input("enter c"))
+if a!=0:
+    d=(b*b)-4*a*c
+    if d>0:
+        r1=((-b)+d**(1/2))/(2*a)
+        r2=((-b)-d**(1/2))/(2*a)
+        print("the roots are real and distinct")
+        print("root 1:",r1)
+        print("root 2:",r2)
+    elif d==0:
+        r=((-b)+d**(1/2))/(2*a)
+        print("the roots are real and equal")
+        print("root:",r)
+    elif d<0:
+        print("no real roots")
+else:
+    print("not a quadratic equation")
+
+
+
